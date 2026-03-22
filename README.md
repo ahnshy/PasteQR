@@ -87,7 +87,7 @@
 
 ## 🌐 라이브 데모
 
-- 로컬 개발 (기본): http://localhost:3000
+- Vercel 배포 : https://paste-qr.vercel.app/
 - 프로덕션: *(배포 URL을 여기에 추가, 예: Vercel)*
 
 ---
