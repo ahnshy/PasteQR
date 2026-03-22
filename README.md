@@ -87,8 +87,7 @@
 
 ## 🌐 라이브 데모
 
-- Vercel 배포 : https://paste-qr.vercel.app/
-- 프로덕션: *(배포 URL을 여기에 추가, 예: Vercel)*
+- 프로덕션 Vercel 배포 : https://paste-qr.vercel.app/
 
 ---
 
