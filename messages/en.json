@@ -1,0 +1,51 @@
+{
+  "Metadata": {
+    "appTitle": "PasteQR | QR scanning without a camera",
+    "appDescription": "Paste, drag, or upload an image and extract QR code contents instantly in your browser.",
+    "scannerTitle": "PasteQR | Scan QR codes from images",
+    "scannerDescription": "Extract QR code contents from screenshots, saved images, and clipboard images without using a camera."
+  },
+  "LanguageSwitcher": {
+    "label": "Language",
+    "en": "EN",
+    "ko": "KO"
+  },
+  "Theme": {
+    "light": "Light mode",
+    "dark": "Dark mode",
+    "night": "Night mode"
+  },
+  "Scanner": {
+    "heroDescription": "Paste, drag, or upload an image to extract QR code contents instantly without a camera.",
+    "uploadTitle": "Drag an image here or click to upload",
+    "uploadDescription": "Screenshots, saved images, and any other image files are supported.",
+    "chooseFile": "Choose file",
+    "pasteImage": "Paste from clipboard",
+    "pasteShortcut": "to paste an image directly",
+    "loading": "Analyzing the QR code...",
+    "previewLabel": "Uploaded image",
+    "previewAlt": "Uploaded QR code image",
+    "retry": "Try again",
+    "reset": "Reset",
+    "resultTitle": "QR code detected",
+    "textType": "Text",
+    "urlType": "URL",
+    "copyTooltip": "Copy text",
+    "copy": "Copy to clipboard",
+    "copied": "Copied",
+    "openLink": "Open link",
+    "tipsLabel": "Quick tips",
+    "tips": {
+      "cameraFree": "Scan from images without opening the camera",
+      "screenshotPaste": "Paste screenshots directly with Ctrl+V",
+      "dragAndDrop": "Drag and drop image files into the page",
+      "urlOpen": "Detected URLs can be opened right away"
+    },
+    "errors": {
+      "invalidFileType": "Only image files can be uploaded.",
+      "unreadableQr": "No QR code could be detected in that image. Try another one.",
+      "emptyClipboard": "No image was found in the clipboard. Try pressing Ctrl+V directly.",
+      "clipboardPermission": "Clipboard access is required. Try pressing Ctrl+V directly."
+    }
+  }
+}

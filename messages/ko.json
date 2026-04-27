@@ -1,0 +1,51 @@
+{
+  "Metadata": {
+    "appTitle": "PasteQR | 카메라 없이 QR 스캔",
+    "appDescription": "이미지를 붙여넣기, 드래그하거나 업로드해서 브라우저에서 즉시 QR 코드 내용을 추출합니다.",
+    "scannerTitle": "PasteQR | 이미지에서 QR 코드 스캔",
+    "scannerDescription": "스크린샷, 저장된 이미지, 클립보드 이미지에서 카메라 없이 QR 코드 내용을 추출합니다."
+  },
+  "LanguageSwitcher": {
+    "label": "언어",
+    "en": "EN",
+    "ko": "KO"
+  },
+  "Theme": {
+    "light": "라이트 모드",
+    "dark": "다크 모드",
+    "night": "나이트 모드"
+  },
+  "Scanner": {
+    "heroDescription": "카메라 없이 이미지를 붙여넣기, 드래그하거나 업로드해서 QR 코드 내용을 바로 추출하세요.",
+    "uploadTitle": "이미지를 드래그하거나 클릭해서 업로드하세요",
+    "uploadDescription": "스크린샷, 저장된 이미지, 일반 이미지 파일을 모두 지원합니다.",
+    "chooseFile": "파일 선택",
+    "pasteImage": "클립보드 붙여넣기",
+    "pasteShortcut": "로 이미지를 바로 붙여넣기",
+    "loading": "QR 코드를 분석하는 중입니다...",
+    "previewLabel": "업로드한 이미지",
+    "previewAlt": "업로드한 QR 코드 이미지",
+    "retry": "다시 시도",
+    "reset": "초기화",
+    "resultTitle": "QR 코드 해석 완료",
+    "textType": "텍스트",
+    "urlType": "URL",
+    "copyTooltip": "텍스트 복사",
+    "copy": "클립보드 복사",
+    "copied": "복사됨",
+    "openLink": "링크 열기",
+    "tipsLabel": "빠른 사용 팁",
+    "tips": {
+      "cameraFree": "카메라 없이 이미지로 바로 스캔",
+      "screenshotPaste": "스크린샷도 Ctrl+V로 바로 붙여넣기",
+      "dragAndDrop": "이미지 파일을 페이지에 드래그 앤 드롭",
+      "urlOpen": "감지된 URL은 바로 열기 가능"
+    },
+    "errors": {
+      "invalidFileType": "이미지 파일만 업로드할 수 있습니다.",
+      "unreadableQr": "이미지에서 QR 코드를 찾지 못했습니다. 다른 이미지를 시도해 보세요.",
+      "emptyClipboard": "클립보드에 이미지가 없습니다. Ctrl+V로 직접 붙여넣어 보세요.",
+      "clipboardPermission": "클립보드 접근 권한이 필요합니다. Ctrl+V로 직접 붙여넣어 보세요."
+    }
+  }
+}
