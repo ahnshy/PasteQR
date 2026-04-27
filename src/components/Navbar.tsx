@@ -1,17 +1,10 @@
 "use client";
 
 import React from "react";
-import {
-  AppBar,
-  Toolbar,
-  Typography,
-  Box,
-  IconButton,
-  useTheme,
-  alpha,
-} from "@mui/material";
+import { AppBar, Toolbar, Typography, Box, useTheme, alpha } from "@mui/material";
 import QrCodeScannerIcon from "@mui/icons-material/QrCodeScanner";
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
+import { LanguageSwitcher } from "./LanguageSwitcher";
 import { ThemeToggle } from "./ThemeToggle";
 
 export function Navbar() {
@@ -20,7 +13,10 @@ export function Navbar() {
   return (
     <AppBar position="sticky" elevation={0}>
       <Toolbar sx={{ gap: 2, minHeight: { xs: 56, sm: 64 } }}>
-        <Link href="/" style={{ textDecoration: "none", color: "inherit" }}>
+        <Link
+          href="/qr-scanner"
+          style={{ textDecoration: "none", color: "inherit" }}
+        >
           <Box sx={{ display: "flex", alignItems: "center", gap: 1.5 }}>
             <Box
               sx={{
@@ -56,6 +52,7 @@ export function Navbar() {
 
         <Box sx={{ flex: 1 }} />
 
+        <LanguageSwitcher />
         <ThemeToggle />
       </Toolbar>
     </AppBar>
