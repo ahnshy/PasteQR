@@ -1,6 +1,6 @@
 "use client";
 
-import { createTheme, ThemeOptions, alpha } from "@mui/material/styles";
+import { createTheme, ThemeOptions } from "@mui/material/styles";
 import { Roboto } from "next/font/google";
 
 export const roboto = Roboto({
