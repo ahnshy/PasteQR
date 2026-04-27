@@ -11,12 +11,14 @@ import {
 import LightModeIcon from "@mui/icons-material/LightMode";
 import DarkModeIcon from "@mui/icons-material/DarkMode";
 import NightsStayIcon from "@mui/icons-material/NightsStay";
+import { useTranslations } from "next-intl";
 import { useThemeMode } from "./ThemeProvider";
 import { ThemeMode } from "@/theme";
 
 export function ThemeToggle() {
   const { mode, setMode } = useThemeMode();
   const theme = useTheme();
+  const t = useTranslations("Theme");
 
   return (
     <ToggleButtonGroup
@@ -45,17 +47,17 @@ export function ThemeToggle() {
         },
       }}
     >
-      <Tooltip title="라이트 모드" arrow>
+      <Tooltip title={t("light")} arrow>
         <ToggleButton value="light">
           <LightModeIcon fontSize="small" />
         </ToggleButton>
       </Tooltip>
-      <Tooltip title="다크 모드" arrow>
+      <Tooltip title={t("dark")} arrow>
         <ToggleButton value="dark">
           <DarkModeIcon fontSize="small" />
         </ToggleButton>
       </Tooltip>
-      <Tooltip title="나이트 모드" arrow>
+      <Tooltip title={t("night")} arrow>
         <ToggleButton value="night">
           <NightsStayIcon fontSize="small" />
         </ToggleButton>
